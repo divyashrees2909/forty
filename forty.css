@@ -51,7 +51,7 @@ main>#art1>div:hover{
     background-color:transparent ;
 }
 main>#art2>div{
-    background-color:#817ab5 ;
+    background-color:#847ab6e5 ;
     height: 100%;
     transition: 2s;
 }
@@ -112,6 +112,7 @@ main>article>div>div>hr{
 main>article>div>div>p{
     text-transform: uppercase;
 }
+
 
 
 
