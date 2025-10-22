@@ -1,0 +1,119 @@
+/* body{
+    background-image: url(./image/nature.jpg);
+    background-repeat: no-repeat;
+     background-position: center right; 
+    background-position-x: left;
+    background-position-y:bottom ; 
+
+    background-size: cover;
+    height: 100vh;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns:40% 20% 40% ;
+    grid-template-rows:320px 320px 320px ;
+}
+ main>#art1{
+    background-image: url(./image/pic01.jpg);
+
+}
+main>#art2{
+    background-image: url(./image/pic02.jpg);
+    grid-column-start: span 2;
+}
+main>#art3{
+    background-image: url(./image/pic03.jpg);
+    grid-column-start: span 2;
+}
+main>#art4{
+    background-image: url(./image/pic04.jpg);
+}
+main>#art5{
+    background-image: url(./image/pic05.jpg);
+}
+main>#art6{
+    background-image: url(./image/pic06.jpg);
+    grid-column-start: span 2;
+}
+main>#art1>div{
+    background-color:#79bfd7ab ;
+    height: 100%;
+    transition:  2s;
+    
+}
+main>#art1>div:hover{
+    background-color:transparent ;
+}
+main>#art2>div{
+    background-color:#817ab5 ;
+    height: 100%;
+    transition: 2s;
+}
+main>#art2>div:hover{
+    background-color:transparent ;
+}
+main>#art3>div{
+    background-color:#e49088c4;
+    height: 100%;
+    transition: 2s;
+}
+main>#art3>div:hover{
+    background-color:transparent ;
+}
+main>#art4>div{
+    background-color:#cda37cb7 ;
+    height: 100%;
+    transition: 2s;
+}
+main>#art4>div:hover{
+    background-color:transparent ;
+}
+main>#art5>div{
+    background-color:#7f99d0ce;
+    height: 100%;
+    transition: 2s;
+}
+main>#art5>div:hover{
+    background-color:transparent ;
+}
+main>#art6>div{
+    background-color:#7fb79ec2 ;
+    height: 100%;
+    transition: 2s;
+}
+main>#art6>div:hover{
+    background-color:transparent ;
+}
+main>article>div{
+    display: flex;
+    align-items: center;
+}
+main>article>div>div{
+    
+    margin-left: 30px;
+    color: white;
+}
+main>article>div>div>h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+main>article>div>div>hr{
+    height: 3px;
+    background-color: white;
+    margin-bottom: 15px;
+    border: none;
+}
+main>article>div>div>p{
+    text-transform: uppercase;
+}
+
+
+
+
+
